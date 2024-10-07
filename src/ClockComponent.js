@@ -14,11 +14,9 @@ const ClockComponent = ({ date }) => {
             </div>
 
             <div className="container">
-
                 <h2>
                     {`${date.toLocaleTimeString(`sv-SE`)}`}
                 </h2>
-
             </div>
         </>
     )

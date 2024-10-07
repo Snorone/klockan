@@ -7,13 +7,16 @@ code {
     monospace;
 }
 .container{
+  display: flex;
+  justify-content: center;
   position: relative;
   top: -75px;
+  left: -10px;
   color: #6A7E5B;
   font-family: 'Digital-7 Mono', sans-serif;
   font-size: 2.5rem;
   padding: 2px;
-  margin-right: 10px
+  
 }
 .first-container{
   position: relative;

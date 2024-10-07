@@ -8,16 +8,19 @@ const ClockComponent = ({ date }) => {
 
 
     return (
-        <div className="container">
+        <>
+            <div className="first-container">
+                <h3>{`${date.toLocaleDateString()}`}</h3>
+            </div>
 
+            <div className="container">
 
-            <h2>
-                {`${date.toLocaleTimeString(`sv-SE`)}`}
-            </h2>
+                <h2>
+                    {`${date.toLocaleTimeString(`sv-SE`)}`}
+                </h2>
 
-
-
-        </div>
+            </div>
+        </>
     )
 }
 export default ClockComponent

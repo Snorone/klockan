@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container{
+  background: radial-gradient(ellipse at center,  #0a2e38  0%);
+  text-shadow: 0 0 10px #6A7E5B,  0 0 10px #6A7E5B;
+  color: #6A7E5B;
+  font-family:'alarm clock', sans-serif; 
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../public/clock.png);
+  background-repeat: no-repeat;
+  background-position: center;
+   width: 100vw;
+  height: 100vh; 
+  }
+  .app{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+

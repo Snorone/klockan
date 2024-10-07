@@ -7,10 +7,8 @@ code {
     monospace;
 }
 .container{
-  background: radial-gradient(ellipse at center,  #0a2e38  0%);
-  text-shadow: 0 0 10px #6A7E5B,  0 0 10px #6A7E5B;
   color: #6A7E5B;
-  font-family:'alarm clock', sans-serif; 
+  font-family: 'Digital-7 Mono', sans-serif;
   font-size: 2.5rem;
   display: flex;
   justify-content: center;
